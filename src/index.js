@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import InputForm from './Components/InputForm';
+import Board from './Components/Board';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Tic Tac Toe </h1>
+    <Board />
   </React.StrictMode>,
   document.getElementById('root')
 );
